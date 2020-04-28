@@ -1,0 +1,131 @@
+h1 {
+width: 100%;
+text-align: center;
+margin:5px;
+font:900;
+background-color:rgb(234, 250, 255);
+}
+#yahoo{
+  position:absolute;
+  border-style: solid;
+  top:40%;
+  right:20%;
+}
+#google{
+  border-style: solid;
+  left:70%;
+  position:absolute;
+}
+#aol{
+  border-style: solid;
+  position:absolute;
+}
+#bing{
+  border-style: solid;
+}
+h2{
+  width:100%;
+  text-align:center;
+  font:900;
+  margin:5px;
+  background-color:aquamarine;
+}
+#yandex{
+  position:absolute;
+  border-style: solid;
+  left:25%;
+}
+#ask{
+  position:absolute;
+  border-style:solid;
+}
+#ecosia{
+  position:absolute;
+  border-style:solid;
+}
+#maktoob{
+  position:absolute;
+  border-style:solid;
+  left:45%;
+  width:55%;
+}
+h3{
+  margin:5px;
+  font:900;
+  width:100%;
+  text-align:center;
+  background-color:aqua;
+}
+#Alexis{
+  width:50%;
+  position:absolute;
+  left:60%;
+}
+#Henry{
+  width:50%;
+  position:absolute;
+}
+#Ozil{
+  position:absolute;
+  Left:40%
+}
+#Wenger{
+  position:absolute;
+  top:100%;
+  left:40%;
+}
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+.image-stack__item--top {
+      grid-column: 1 / span 8;
+      grid-row: 1; 
+      padding-top: 20%; 
+      z-index: 1; 
+    }
+
+ .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1; 
+  }
+#page1{
+  color:red;
+  border-style:outset;
+  border-color:blue;
+}
+#page2{
+  color:blue;
+  border-style:outset;
+  border-color:brown;
+}
+#homepage{
+  color:green;
+  border-style:outset;
+  border-color:yellow;
+}
+#page1two{
+  color:purple;
+  border-style:outset;
+  border-color:blanchedalmond
+}
+#pagehome{
+  color:cornflowerblue;
+  border-style:outset;
+  border-color:bisque;
+}
+#page3{
+  color:darkmagenta;
+  border-style:outset;
+  border-color:gold;
+}
+#body3{
+  background-image:url("img/arsenal.jpg");
+}
+#body1{
+  background-color:blueviolet;
+}
+#body2{
+  background-color:darkgreen;
+}
